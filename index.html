@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather.app</title>
+    <link rel="stylesheet" href="Style/mobile.css   ">
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City Name " spellcheck="false">
+            <button><img src="Images/search.png" alt=""></button>
+        </div>
+        <div class="err">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <img src="Images/rain.png" alt="" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New Delhi</h2>
+            <p class="description">Cloudy</p>
+            <div class="extra-details">
+                <div><strong>Pressure:</strong> <span class="pressure">1012 hPa</span></div>
+                <div><strong>Visibility:</strong> <span class="visibility">10 km</span></div>
+            </div>
+
+            <div class="details">
+                <div class="col">
+                    <img src="Images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="Images/wind.png" alt="">
+                    <div>
+                        <p class="wind">15Km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/weather.js"></script>
+</body>
+</html>
